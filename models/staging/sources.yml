@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: vehicle_db
+    schema: raw
+    tables:
+      - name: epa_vehicles
+      - name: craigslist_vehicles
