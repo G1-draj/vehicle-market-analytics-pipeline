@@ -56,6 +56,20 @@ Power BI Dashboard
 - Surrogate keys generated via dbt_utils.generate_surrogate_key()
 - dbt tests applied to all dimension tables for data quality validation
 
+## Dashboard Screenshots
+
+### Page 1: Market Overview
+![Market Overview](screenshots/page1.png)
+
+### Page 2: Fuel Efficiency vs Price
+![Fuel Efficiency](screenshots/page2.png)
+
+### Page 3: Regional Analysis
+![Regional Analysis](screenshots/page3.png)
+
+## Pipeline Lineage
+![dbt Lineage](screenshots/lineage.png)
+
 ## How to Run
 
 1. Clone this repo
