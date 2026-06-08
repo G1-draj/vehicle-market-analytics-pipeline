@@ -15,7 +15,7 @@ cleaned as (
         drive               as drive_type,
         state               as state_code,
         title_status        as title_status,
-        try_to_timestamp(posting_date) as posting_date,
+        cast(try_to_timestamp(posting_date, 'YYYY-MM-DDTHH:MI:SSTZHTZM') as date) as posting_date,
         lower(transmission) as transmission_type,
         case
             when lower(fuel) like '%gas%' then 'gas'

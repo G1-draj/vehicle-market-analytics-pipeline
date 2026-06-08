@@ -60,14 +60,18 @@ fact as (
         and c.fuel_normalized        = e.fuel_normalized
         and c.transmission_type      = e.transmission_type
     left join vehicle_dim v
-        on  upper(c.manufacturer)  = upper(v.manufacturer)
-        and upper(c.model_name)    = upper(v.model_name)
-        and c.model_year           = v.model_year
-        and c.transmission_type      = v.transmission_type
+        on  upper(e.manufacturer)       = upper(v.manufacturer)
+        and upper(e.model_name)         = upper(v.model_name)
+        and e.model_year                = v.model_year
+        and e.transmission_type         = v.transmission_type
+        and e.cylinders                 = v.cylinders
+        and e.engine_displacement       = v.engine_displacement
+
     left join fuel_dim f
         on e.fuel_type             = f.fuel_type
         and e.fuel_economy_score   = f.fuel_economy_score
         and e.ghg_score            = f.ghg_score
+        and e.co2_grams_per_mile   = f.co2_grams_per_mile
     left join location_dim l
         on c.state_code            = l.state_code
     left join date_dim d

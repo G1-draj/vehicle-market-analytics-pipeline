@@ -11,8 +11,6 @@ deduped as (
         fuel_economy_score,
         ghg_score,
         co2_grams_per_mile,
-        annual_fuel_cost,
-        savings_vs_average,
         row_number() over (
             partition by fuel_type, fuel_economy_score, ghg_score, co2_grams_per_mile
             order by fuel_economy_score desc
@@ -29,9 +27,7 @@ dim as (
         fuel_economy_score,
         ghg_score,
         co2_grams_per_mile,
-        annual_fuel_cost,
-        savings_vs_average
-    from deduped
+     from deduped
     where rn = 1
 )
 
