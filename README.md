@@ -58,6 +58,9 @@ Power BI Dashboard
 
 ## Dashboard Screenshots
 
+## Pipeline Lineage
+![dbt Lineage](screenshots/lineage.png)
+
 ### Page 1: Market Overview
 ![Market Overview](screenshots/page1.png)
 
@@ -67,8 +70,6 @@ Power BI Dashboard
 ### Page 3: Regional Analysis
 ![Regional Analysis](screenshots/page3.png)
 
-## Pipeline Lineage
-![dbt Lineage](screenshots/lineage.png)
 
 ## How to Run
 
