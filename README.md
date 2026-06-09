@@ -62,13 +62,13 @@ Power BI Dashboard
 ![dbt Lineage](screenshots/lineage.png)
 
 ### Page 1: Market Overview
-![Market Overview](screenshots/page1.png)
+![Market Overview](screenshots/page1_market_overview.png)
 
-### Page 2: Fuel Efficiency vs Price
-![Fuel Efficiency](screenshots/page2.png)
+### Page 2: Price Intelligence
+![Price Intelligence](screenshots/page2_price_intelligence.png)
 
 ### Page 3: Regional Analysis
-![Regional Analysis](screenshots/page3.png)
+![Regional Analysis](screenshots/page3_regional_analysis.png)
 
 
 ## How to Run
