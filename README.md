@@ -70,6 +70,9 @@ Power BI Dashboard
 ### Page 3: Regional Analysis
 ![Regional Analysis](screenshots/page3_regional_analysis.png)
 
+### Page 4: Market Command Center (v2 - Dark Theme)
+![Market Command Center](screenshots/page4_market_command_center.png)
+
 
 ## How to Run
 
